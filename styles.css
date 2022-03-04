@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 91px 124px 157px 124px;
+    
+}
+
+.ilkin {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+h1{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    width: 365px;
+    height: 93px;
+}
+
+.text {
+
+    width: 662px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.img1 {
+    position: absolute;
+    width: 314px;
+    height: 315px;
+    left: 976px;
+    top: 226px;
+    
+}
+
+.img2 {
+    width: 232px;
+    height: 203px;
+}
+
+.ayxan{
+    
+    display: flex;
+    margin-top: 94px;
+}
+
+h2{
+    width: 150px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+}
+
+.text2 {
+    width: 150px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.list {
+
+    width: 638px;
+    margin-left: 92px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.img1-1 {
+    position: absolute;
+    width: 366px;
+    height: 59px;
+    left: 950px;
+    top: 511px;
+    z-index: -1;
+
+}
+
+.img2-2 {
+
+    position: absolute;
+    width: 189px;
+    height: 32px;
+    left: 157px;
+    top: 947px;
+    z-index: -1;
+
+}
+
+
+
+@media (max-width: 834px){
+    .container {
+        margin-left:72px;
+    }
+
+    .ilkin {
+        display: flex;
+    }
+
+    h1{
+        position: absolute;
+width: 211.4px;
+height: 53.86px;
+left: 72px;
+top: 56px;
+
+font-size: 32px;
+line-height: 101.38%;
+    }
+
+    .text {
+
+        position: absolute;
+width: 383.41px;
+height: 216.61px;
+left: 72px;
+top: 120.29px;
+font-size: 14px;
+line-height: 150%;
+    }
+    
+    .img1 {
+        width: 181.86px;
+        height: 182.44px;
+        position: absolute;
+        left: 565.45px;
+        top: 134.19px;
+        
+    }
+
+    .img1-1 {
+        position: absolute;
+        width: 211.98px;
+        height: 34.17px;
+        left: 550.39px;
+        top: 299.25px;
+        z-index: -1;
+    }
+
+    .img2-2 {
+        display: none;
+    }
+    
+    .img2 {
+        width: 232px;
+        height: 203px;
+        display: none;
+    }
+    
+    .ayxan{
+        
+        display: flex;
+        margin: auto;
+        margin-top: 70.1px;
+    }
+    
+    h2{
+        font-size: 15px;
+    }
+
+    .h1{
+        position: absolute;
+width: 86.88px;
+height: 22.59px;
+left: 72px;
+top: 407px;
+    }
+
+    .h2{
+        position: absolute;
+width: 86.88px;
+height: 22.59px;
+left: 213.9px;
+top: 407px;
+    }
+
+    .h3 
+    {
+        position: absolute;
+width: 86.88px;
+height: 22.59px;
+left: 354.63px;
+top: 407px;
+    }
+    
+    .text2 {
+        font-size: 11px;
+        
+    }
+
+    .tx1 {
+        position: absolute;
+width: 86.88px;
+height: 22.59px;
+left: 72px;
+top: 430.17px;
+    }
+    
+    .tx2 {
+        position: absolute;
+width: 108px;
+height: 23px;
+left: 214.1px;
+top: 429.95px;
+    }
+
+    .tx3{
+        position: absolute;
+width: 86.88px;
+height: 22.59px;
+left: 354.63px;
+top: 430.17px;
+    }
+
+    .list {
+    
+        width: 369.51px;
+        margin-left: 0;
+        margin-right: 392.49px;
+        
+        
+    }
+}
+
+
+@media (max-width: 375px){
+    .container {
+        margin-left:36px;
+    }
+
+    .ilkin {
+        display: flex;
+    }
+
+    h1{
+        position: absolute;
+        width: 170.08px;
+        height: 43.34px;
+        left: 36px;
+        top: 56px;
+
+        font-size: 26px;
+        line-height: 101.38%;
+    }
+
+    .text {
+
+        position: absolute;
+        width: 308.47px;
+        height: 174.27px;
+        left: 36px;
+        top: 107.72px;
+        font-size: 12px;
+        line-height: 150%;
+    }
+    
+    .img1 {
+            position: absolute;
+            width: 170.55px;
+            height: 160.29px;
+            left: 101px;
+            top: 338px;
+
+    }
+    
+    .img2 {
+        width: 232px;
+        height: 203px;
+        display: none;
+    }
+    
+    .ayxan{
+        
+        display: flex;
+        margin: auto;
+        margin-top: 70.1px;
+    }
+    
+    h2{
+        font-size: 12px;
+        line-height: 130%;
+    }
+
+    .h1{
+        position: absolute;
+        width: 69.9px;
+        height: 18.17px;
+        left: 35px;
+        top: 544px;
+    }
+
+    .h2{
+        position: absolute;
+width: 69.9px;
+height: 18.17px;
+left: 154.16px;
+top: 544px;
+    }
+
+    .h3 
+    {
+        position: absolute;
+        width: 69.9px;
+        height: 18.17px;
+        left: 35px;
+        top: 615px;
+    }
+    
+    .text2 {
+        font-size: 10px;
+        line-height: 130%;  
+        
+    }
+
+    .tx1 {
+        position: absolute;
+width: 86px;
+height: 18px;
+left: 35px;
+top: 563px;
+    }
+    
+    .tx2 {
+        position: absolute;
+width: 86.89px;
+height: 18.5px;
+left: 154.33px;
+top: 562.46px;
+    }
+
+    .tx3{
+        position: absolute;
+        width: 76px;
+        height: 18px;
+        left: 35px;
+        top: 634px;
+    }
+
+    .list {
+    
+        width: 206.22px;
+        margin-left: 0;
+        margin-right: 133.78px;
+        
+        
+    }
+}
